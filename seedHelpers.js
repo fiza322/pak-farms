@@ -1,0 +1,36 @@
+module.exports.descriptors=[
+    'Narrow',
+    'Original headquarter',
+    'Solitary',
+    'Sld',
+    'Airy',
+    'Distant',
+    'Tiny',
+    'Comfortable',
+    'Lean',
+    'Large',
+    'Roomy',
+    'Fine airy',
+    'Tile-roofed',
+    'Narrow two story',
+    'Comfortable old',
+    'Brown,old-fashioned',
+    'White two-story',
+    'Roomy white'
+]
+module.exports.places=[
+    'Bedian Road, Lahore, Punjab',
+    'Chak Shahzad, Islamabad',
+    'Nakrali, Rawalpindi, Punjab',
+    'Orchard Scheme, Islamabad',
+    'DHA City, Karachi, Sindh',
+    'The Springs, Islamabad',
+    'Simly Dam, Islamabad',
+    'Bahria Town, Bahria Town Precinct-18, Karachi',
+    'Cantt, Barki Road, Lahore',
+    'Street Marvi road, Adyala Road, Rawalpindi',
+    'Satiana Road, Main Road, Faisalabad',
+    'Kuri Road, Rawalpindi',
+    'Gulberg, Gulberg Greens, Islamabad',
+    'amabad Al Faisal Enclave'
+]

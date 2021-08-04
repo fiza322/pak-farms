@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAK FARMS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/home.css">
+</head>
+
+<body class="d-flex text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-left mb-0">PAK FARMS</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-right">
+                    <a href = "#" target = "_self">
+                      <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                      <a class="nav-link" href="/farmhouses" ><b>FARMHOUSES</b></a>
+                  
+                  
+               
+                    <% if(!currentUser) { %>
+                    <a class="nav-link" href="/login"><b>LOGIN</b></a>
+                    <a class="nav-link" href="/register"><b>REGISTER</b></a>
+                    <% } else { %>
+                    <a class="nav-link" href="/logout"><b>LOGOUT</b></a>
+                    <% } %>
+                </nav>
+            </div>
+        </header>
+        <div class="container mt-4">
+            <div class="row">
+              <div class="col"></div>
+              <div class="col-12 col-md-9">
+                <div class="card shadow border-0 ">
+                  <div class="card-body bg-dark">
+                    <h1 class="text-center">About PAK FARMS</h1>
+                    <h3>What is PAK FARMS?</h3>
+                    <hr>
+                    <p>
+                      <strong class="hello">PAK FARMS</strong> is a farmhouses reviewing website. Users can create their own farmhouses or review others' farmhouses. 
+                      This was a project made for WE course made by <b><span class="red">FIZA SAIF SE-080 and HASSAN AHMED DEPARTMENT OF SOFTWARE ENGINEERING <br><span class="yello"><b>NEDUET</b></span>
+                      </span></b>
+                    </p><br>
+                    <p> PAK FARMS was created using Node.js, Express, and MongoDB.</p>
+                    <br><p>Jump right in and explore our many farmhouses. <br>
+                      Feel free to share some of your own and comment on others!</p> 
+                    <a href="/farmhouses" class="btn btn-lg btn-secondary font-weight-bold border-white bg-white">View
+                      Farmhouses</a>
+    
+                  </div>
+                </div>
+              </div>
+              <div class="col"></div>
+            </div>
+          </div>
+        
+
+
+
+        <footer class="mt-auto text-white-50">
+            <p>PAKFARMS copyright &copy; 2021 </p>
+        </footer>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
